@@ -20,4 +20,4 @@ Esse projeto tem como objetivo obter uma API Rest utilizando Node.js e Express p
 
 3. Os métodos são mandados para um banco de dados no mongodb;
 
-![client](https://user-images.githubusercontent.com/80061839/169842513-be721a2c-3cc6-4c42-bc2b-58a35411aa85.png)
+![client](https://github.com/leticiapaoleschi/ecommerce/blob/main/assets/banco%20de%20dados.png)
