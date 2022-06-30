@@ -29,17 +29,18 @@ const Schema = new mongoose.Schema({
    },
 
    startdate:{
-    type: Date, 
+    type: String, 
    },
 
    endDate:{
-    type: Date,
+    type: String,
    },
 
     username:{
         type: mongoose.Schema.Types.ObjectId,
-        ref: User
+        ref: 'User',
+        required: true
     }
 })
 
-module.exports = mongoose = mongoose.model('Smartphone', Schema)
+module.exports = mongoose.model('Smartphone', Schema)

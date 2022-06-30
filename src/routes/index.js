@@ -25,9 +25,6 @@ routes.get('/', (req, res) => {
     routes.delete('/smartphone/:user_id/:smartphone_id', SmartphoneController.deleteSmartphone)
 
     routes.get('/smartphone', SmartphoneController.getSmartphone )
-    routes.get('smartphone/:smartphone_id')
-
-
     
 
 module.exports = routes
